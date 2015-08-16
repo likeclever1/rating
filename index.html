@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Select</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    .rating {
+        border: 1px solid #000;
+        float: left;
+    }
+
+    .rating__item {
+        margin-left: 10px;
+        display: inline-block;
+    }
+
+    .rating__item:first-child {
+        margin-left: 0;
+    }
+</style>
+<body>
+    
+    <div class="rating" luana-module="rating" title="4.5">
+        <div class="rating__item fa fa-star-o" item></div>
+        <div class="rating__item fa fa-star-o" item></div>
+        <div class="rating__item fa fa-star-o" item></div>
+        <div class="rating__item fa fa-star-o" item></div>
+        <div class="rating__item fa fa-star-o" item></div>
+    </div>
+
+    <script src="javascript/jquery.2.1.4.js"></script>
+    <script src="javascript/luana.js"></script>
+    <script src="javascript/rating.luana.js"></script>
+    
+</body>
+</html>
